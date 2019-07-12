@@ -1,7 +1,8 @@
-#a
-chat=int(input())
-if chat%2==0:
-    print(chat*(chat//2)-(chat//2))
-else:
-    print(chat*(chat//2))
-
+x=int(input())
+if(x%2==0):
+    pair=x//2
+    p1=pair*(x-1)
+    print(p1)
+elif x%2!=0:
+    print(x*(x//2))
+    
